@@ -67,9 +67,12 @@ h2 {
 }
 
 #table-of-contents{
-    width: 400px;
-    margin: 0 auto 20px auto;
+    width: 330px;
+    margin: 0 auto 20px 10%;
     border-radius: 30px;
+}
+#table-of-contents > ul {
+    padding: 0;
 }
 #table-of-contents > ul > li {
 	list-style:none;
@@ -81,7 +84,8 @@ h2 {
     color: #fffefd;
     display: block;
     height: 100%;
-    width: 100%
+    width: 100%;
+    margin: 0;
 }
 
 .info{
