@@ -46,11 +46,11 @@ body {
 .sub{
     color: #f8ae4d;
     text-align: center;
+    font-size: 13px;
 }
 .sub > span{
     background: #fffefde3;
 }
-
 
 #topimg{
     width: 300px;
@@ -96,11 +96,17 @@ h2 {
     width: 100%;
     margin: 0;
 }
+.liblue{
+    background: #d0e0ff!important;
+}
+.liblue > a{
+    color: #6068c6!important;
+}
 
 .info{
 	background: #fcfdbf;
 	border-radius: 30px;
-	padding: 3px 10px;
+	padding: 5px 10px;
 	margin-bottom: 20px;
 }
 
@@ -109,7 +115,18 @@ h2 {
 	color:#e6a936;
 }
 .info > p{
-	margin: 10px 5px;
+	margin: 5px 5px 0px 5px;
+}
+
+.scrollable-box {
+    width: 400px;
+    height: 3em;
+    overflow-y: auto;
+    border: none;
+    padding: 0.5em;
+	margin-bottom: 10px;
+    font-size: 13px;
+	color: #5a55af;
 }
 
 img.prof{
