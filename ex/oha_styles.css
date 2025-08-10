@@ -83,6 +83,9 @@ li a {
     border-radius: 5px;
     padding: 0 10px;
  }
+li a:not(a.attached) {
+    background: #95a7d985;
+}
  li a.attached {
     color: #ffffff;
     background: #f3b05c;
