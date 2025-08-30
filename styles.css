@@ -281,7 +281,7 @@ footer{
 	width: 90%;
 	max-height: 70vh;
 	padding-bottom: 20px;
-	overflow: scroll;
+	overflow: auto;
 	box-shadow: 0 25px 52px rgb(177 90 47 / 20%);
 	z-index: 1010;
 	opacity: 0;
