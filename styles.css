@@ -403,30 +403,44 @@ button.x {
 }
 
 .totop {
-    position: fixed;
-    right: 5px;
-    bottom: 10px;
-    height: 30px;
-    width: 30px;
-    background: #fcfdbf;
-    border: solid 1px #fff;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 100;
+	position: fixed;
+	right: 5px;
+	bottom: 10px;
+	height: 30px;
+	width: 30px;
+	background: #fcfdbf;
+	border: solid 1px #fff;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 100;
 }
 .arrow {
-    height: 8px;
-    width: 8px;
-    border-top: 3px solid #e6a936;
-    border-right: 3px solid #e6a936;
-    transform: translateY(20%) rotate(-45deg);
+	height: 8px;
+	width: 8px;
+	border-top: 3px solid #e6a936;
+	border-right: 3px solid #e6a936;
+	transform: translateY(20%) rotate(-45deg);
 }
 
 @media screen and (max-width: 850px) {
+	#title {
+		font-family: "Meiryo", "Yu Gothic", sans-serif;
+		font-weight: bold;
+		font-size: 35px;
+		color: rgba(0, 0, 0, 0);
+		text-shadow: 3px 3px 0 #f9dda9;
+		-webkit-text-stroke: 1px #e6a936;
+		text-stroke: 1px #e6a936;
+		margin-bottom: 5px;
+	}
+	#title > img {
+    width: 35px!important;
+	}
 	.scrollable-box {
-		width: 400px;
+		width: 95%;
+		height: 8em;
 	}
 	
 	.toggle-container {
