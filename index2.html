@@ -3643,6 +3643,8 @@
       for (const btn of buttons) {
         if (btn.textContent.replace("★","").trim() === targetText) {
           btn.classList.add("hl");
+          toggleSwitch.classList.toggle('active');
+          toggleFilter();
           btn.scrollIntoView({ behavior: "smooth", block: "center" });
           break;
         }
