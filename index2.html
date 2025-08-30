@@ -3660,7 +3660,6 @@
     function resetProgress() {
       seekbarProgress.style.width = "0%";
     }
-    // 音声読み込み開始時
     audio.addEventListener("loadstart", function() {
         resetProgress();
     });
@@ -3671,8 +3670,8 @@
       clearInterval(updateInterval);
       seekbarProgress.style.width = "100%";
       setTimeout(() => {
-        updateInterval = null; // intervalをnullに設定
-        audio.currentTime = 0; // 音声の再生位置もリセット
+        updateInterval = null;
+        audio.currentTime = 0;
         seekbarProgress.style.width = "0%";
       }, 100);
     });
@@ -3723,12 +3722,12 @@
   function openHelp() {
     helpOverlay.classList.add('active');
     helpModal.classList.add('active');
-    document.body.style.overflow = 'hidden'; // スクロールを無効化
+    document.body.style.overflow = 'hidden';
   }
   function closeHelp() {
     helpOverlay.classList.remove('active');
     helpModal.classList.remove('active');
-    document.body.style.overflow = ''; // スクロールを有効化
+    document.body.style.overflow = '';
   }
   helpButton.addEventListener('click', openHelp);
   closeButton.addEventListener('click', closeHelp);
