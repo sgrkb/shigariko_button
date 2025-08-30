@@ -380,6 +380,22 @@ footer{
 	font-size: 16px;
 	font-weight: bold;
 	color: #6f79f4;
+	width: 80px;
+	display: block;
+}
+
+@media screen and (max-width: 768px) {
+	.toggle-container {
+		position: absolute;
+		top: 55px;
+		left: 10px;
+	}
+	.toggle-label {
+		font-size: 13px;
+		width: 70px;
+		display: block;
+		line-height: 1.1em;
+	}
 }
 
 button:not(.z) {
